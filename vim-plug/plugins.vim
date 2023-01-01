@@ -17,7 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-commentary'
   " Theme
   Plug 'joshdick/onedark.vim'
-  Plug 'arcticicestudio/nord-vim'
+  Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   " Stable version of coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Keeping up to date with master
@@ -36,5 +36,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
   Plug 'junegunn/gv.vim'
+
+let g:storm = {'colorscheme': 'tokyonight'}
 
 call plug#end()

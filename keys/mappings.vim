@@ -23,6 +23,9 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
+" Close current tab
+nnoremap <C-x> :bw<CR>
+
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit

@@ -33,7 +33,9 @@ set updatetime=300
 set timeoutlen=100
 set formatoptions=cro
 set clipboard=unnamedplus
+set termguicolors
 
 au! BufWritePost $MYVIMRC source %
 
 cmap w!! w !sudo tee %
+
